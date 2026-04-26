@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# PyInstaller / pyenv
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Environment variables
+.env
+
+# Project Gutenberg cache (large files – never commit!)
+GutenbergBooks/
+
+# Logs
+*.log
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# personal development notes
+build.txt

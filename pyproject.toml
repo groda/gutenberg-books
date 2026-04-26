@@ -1,0 +1,28 @@
+[project]
+name = "gutenberg-books"
+version = "0.1.0"
+description = "Easy access to the Project Gutenberg catalog and books"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {text = "MIT"}
+authors = [{name = "groda", email = "851647+groda@users.noreply.github.com"}]
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=2.0",
+    "requests>=2.25",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Education",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/groda/gutenberg-books"
+"Bug Tracker" = "https://github.com/groda/gutenberg-books/issues"
+"Documentation" = "https://github.com/groda/gutenberg-books#readme"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
