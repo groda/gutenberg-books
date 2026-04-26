@@ -44,7 +44,7 @@ print(gb.books_matching_year(1813))   # e.g. Jane Austen era
 # Download books (safe & polite)
 gb.download_book(1342)                    # Pride and Prejudice
 paths = gb.download_n_books(10, subject="Science Fiction", random_delay_sec=5)
-paths = gb.download_size_books(size_mb=256, random_delay_sec=5)
+paths = gb.download_size_books(size_mb=16, random_delay_sec=5)
 ```
 
 All returned data are **pandas DataFrames** — easy to filter, save to CSV, or use in ML pipelines.
